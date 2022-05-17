@@ -1,0 +1,163 @@
+/*header*/
+.header {
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+    /*nav*/
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 60px;
+    }
+
+    .nav__list {
+        overflow: hidden;
+    }
+
+    .nav__list a:hover {
+        opacity: 0.7;
+    }
+
+    .nav__list a {
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 20px;
+    }
+
+    .nav__list li {
+        list-style-type: none;
+        float: left;
+        margin: 10px 0;
+        position: relative;
+    }
+
+    .nav__left li {
+        margin-right: 20px;
+    }
+
+    .nav__right li {
+        margin-left: 20px;
+    }
+
+    .nav__icon {
+        width: 20px;;
+    }
+
+    .nav__left .nav__icon {
+        margin-left: 5px;
+    }
+
+    .nav__right .nav__icon {
+        margin-right: 5px;
+    }
+
+    .nav__icon-arrow {
+        width: 10px;
+        margin: 5px 0px 5px 5px;
+    }
+
+    .nav__separate {
+        width: 2px;
+        height: 15px;
+        background-color: hsla(0,0%,100%,.22);
+        position: absolute;
+        right: -10px;
+        top: 2px;
+    }
+
+    /*hbody*/
+    .hbody {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .shopee-icon {
+        width: 162px;
+        height: 60px;
+        margin-left: 60px;
+        position: relative;
+        top: 7px;
+    }
+
+    .shopee-icon:hover {
+        cursor: pointer;
+    }
+
+    .cart {
+        width: 30px;
+        height: 30px;
+        margin-right: 120px;
+        position: relative;
+        top: 25px;
+    }
+
+    .cart:hover {
+        cursor: pointer;
+    }
+
+    .cart:active {
+        opacity: 0.7;
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search form {
+        width: 845px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        border-radius: 3px;
+        position: relative;
+    }
+
+    .search-input {
+        width: 760px;
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+
+    .search button {
+        width: 60px;
+        height: 34px;
+        background-color: var(--main-orange);
+        border-radius: 3px;
+        border: none;
+        position: absolute;
+        right: 3px;
+    }
+
+    .search button:hover {
+        cursor: pointer;
+    }
+
+    .search button:active {
+        opacity: 0.7;
+    }
+
+    .search-btn img {
+        width: 20px;
+    }
+
+    .favorite-goods {
+        margin-bottom: 5px;
+    }
+
+    .favorite-goods a {
+        margin-right: 5px;
+    }
+
+    .favorite-goods a:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }

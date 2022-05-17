@@ -1,0 +1,95 @@
+.menu {
+    background-color: #fff;
+    margin: 20px 60px 0;
+    position: relative;
+    padding-bottom: 30px;
+    /* overflow: hidden; */
+}
+
+.menu .menu-container {
+    width: 50%;
+    height: 318px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    float: left;
+    z-index: 0;
+}
+
+.menu .menu-title {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.54);
+    padding: 25px 20px;
+    
+}
+
+.menu .menu-item {
+    width: calc(10% - 2px) ;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(243, 241, 241);
+}
+
+.menu-item__img {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.menu-item__text {
+    text-transform: capitalize;
+    margin: 10px 6px 13px 6px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+}
+
+.menu-btn {
+    position: absolute;
+    bottom: 41.5%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.menu-btn img {
+    width: 50%;
+}
+
+.menu-item:hover {
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
+
+.menu:hover .menu-btn {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.menu-next-btn {
+    right: 0;
+    transform: translate(50%, 50%);
+}
+
+.menu-previous-btn {
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+.menu-body {
+    min-width: 200%;
+    overflow: hidden;
+    transform: translateX(-5%);
+}

@@ -1,0 +1,134 @@
+/*Banner*/
+.banner {
+    background-color: #fff;
+    padding: 30px 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner .pad-right {
+    width: 403px;
+    height: 235px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    padding-right: 60px;
+    z-index: 2;
+}
+
+.banner .pad-left {
+    width: 60px;
+    height: 235px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+
+.banner-img {
+    height: 235px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-banner {
+    padding-right: 7px;
+    height: 100%;
+    position: relative;
+}
+
+.big-banner:hover .banner-btn {
+    display: flex;
+}
+
+.big-banner__item {
+    height: 100%;
+    /* transform: translateX(-70%); */
+    z-index: 1;
+    /* animation: bannerChange 1s; */
+}
+
+.banner-btn {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    background-color: black;
+    opacity: 0.5;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.banner-btn:hover {
+    cursor: pointer;
+}
+
+.banner-btn:active {
+    opacity: 1;
+}
+
+.banner-btn img {
+    width: 20px;
+}
+
+.big-banner .previous-btn {
+    left: 0;
+}
+
+.big-banner .next-btn {
+    right: 7px;
+}
+
+.small-banner {
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.small-banner__item {
+    width: 100%;
+    height: 115px;
+    background-color: aqua;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.service__item {
+    text-align: center;
+    width: 12.5%;
+    margin: 0 10px;
+}
+
+.service__item:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.big-banner .dot-list {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+
+.big-banner .dot {
+    width: 9px;
+    height: 9px;
+    margin: 0 5px;
+    border-radius: 50%;
+    border: 1px solid hsla(0,0%,53.7%,.4);
+    background-color: hsla(0,0%,100%,.4);
+}

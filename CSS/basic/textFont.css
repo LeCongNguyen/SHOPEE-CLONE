@@ -1,0 +1,17 @@
+/*head-white-text*/
+.hwt {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.76rem;
+    font-weight: 300;
+}
+
+/*banner-black-text*/
+.bbt {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.76rem;
+    font-weight: 300;
+}
